@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Excel">
+      <UniqueIdentifier>{5f28bdf0-93c5-4032-acc0-609c89a688f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite3">
+      <UniqueIdentifier>{ebf4d631-c0fc-4972-9d0d-9aba3427b469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{ffa3c2e3-34a5-4ef1-919b-3d7a5d78b006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xmlUI">
+      <UniqueIdentifier>{05a0e584-b9a7-4670-8f2c-bcbd50e3022d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{8bee7743-1314-4246-b2f1-f33808c4692c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\sqlite3Demo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sqlite3Demo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\skin.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sqlite3Demo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExcel.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3DemoDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="mainUI.h">
+      <Filter>xmlUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sqlite3Demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExcel.cpp">
+      <Filter>Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3DemoDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="mainUI.cpp">
+      <Filter>xmlUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sqlite3Demo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\mainUI.xml">
+      <Filter>xml</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
